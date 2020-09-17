@@ -1,0 +1,12 @@
+[package]
+name = "aws-auth-proto"
+version = "0.1.0"
+authors = ["Ryan Lucio <69309261+RyanLucio-okta@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rusoto_core = "0.42"
+rusoto_credential = "0.42"
+json = "0.12.4"
